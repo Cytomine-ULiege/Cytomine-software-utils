@@ -23,7 +23,7 @@ RUN pip install requests \
     future \
     shapely \
     numpy \
-    opencv-python
+    opencv-python-headless
 
 RUN git clone https://github.com/cytomine-uliege/Cytomine-python-client.git && \
     cd Cytomine-python-client && \
